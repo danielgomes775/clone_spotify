@@ -1,32 +1,38 @@
-@media screen and (max-width: 768px) and (min-width: 414px) {
+@media screen and (max-width: 500px) {
     
     #conteudo {
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column wrap;
         background-color: #1C1C1C;
-        flex-grow: 2;
-        min-height: 87vh;
+        max-height: 500vh; 
         border-radius: 8px;
-        overflow-y: scroll;
+        width: 100%;
+        min-width: 100%;
     }
     
+
+    .conta {
+        display: flex;
+        flex-grow: 2;
+    }
+
     .container-card {
         flex-direction: row;
-        max-width: 768px;
         flex-wrap: wrap;
-        min-height: 70vh;
-        align-items: flex-start;
-        justify-content: space-around;
-        align-items: flex-start;
+        max-height: 130vh;
+        align-items: center;
+    }
+
+
+    .card {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: rgb(36, 36, 36);
+        max-width: 170px;
+        min-width: 168px;
+        min-height: 260px;
+        border-radius: 5px;
     }
 
     
-
-    /* Testando essa parte. */
-    .espaco-sobrando {
-        display: flex;
-        flex-flow: column wrap;
-        height: 6vh;
-        background-color: #1C1C1C;
-    }
 }
