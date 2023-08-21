@@ -1,12 +1,16 @@
 @media screen and (max-width: 500px) {
     
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
     #conteudo {
         display: flex;
         flex-flow: column wrap;
         background-color: #1C1C1C;
         max-height: 500vh; 
         border-radius: 8px;
-        width: 100%;
         min-width: 100%;
     }
     
