@@ -23,6 +23,7 @@
     .conta {
         display: flex;
         min-width: 100%;
+        background-color: aqua;
     }
 
     .container-card {
