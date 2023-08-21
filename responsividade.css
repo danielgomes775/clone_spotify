@@ -46,3 +46,53 @@
 
     
 }
+
+@media only screen and (min-width: 320px) {
+    
+    body {
+        min-width: 100%;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+
+    #conteudo {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #1C1C1C;
+        max-height: 50%; 
+        border-radius: 8px;
+        min-width: 100%;
+    }
+    
+
+    .conta {
+        display: flex;
+        min-width: 100%;
+        background-color: aqua;
+    }
+
+    .container-card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 13%;
+        align-items: center;
+    }
+
+
+    .card {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: rgb(36, 36, 36);
+        max-width: 170px;
+        min-width: 168px;
+        min-height: 260px;
+        border-radius: 5px;
+    }
+
+    
+}
+
