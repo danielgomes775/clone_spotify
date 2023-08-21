@@ -14,7 +14,7 @@
         display: flex;
         flex-flow: column wrap;
         background-color: #1C1C1C;
-        max-height: 500vh; 
+        max-height: 50%; 
         border-radius: 8px;
         min-width: 100%;
     }
@@ -28,7 +28,7 @@
     .container-card {
         flex-direction: row;
         flex-wrap: wrap;
-        max-height: 130vh;
+        min-height: 13%;
         align-items: center;
     }
 
