@@ -9,6 +9,7 @@
         display: flex;
         flex-direction: column;
         min-width: 100%;
+         overflow-x: hidden;
     }
 
     #conteudo {
@@ -18,6 +19,7 @@
         max-height: 50%; 
         border-radius: 8px;
         min-width: 100%;
+         overflow-x: hidden;
     }
     
 
