@@ -1,8 +1,13 @@
 @media screen and (max-width: 500px) {
     
+    body {
+        min-width: 100%;
+    }
+
     #container {
         display: flex;
         flex-direction: column;
+        min-width: 100%;
     }
 
     #conteudo {
@@ -17,7 +22,7 @@
 
     .conta {
         display: flex;
-        flex-grow: 2;
+        min-width: 100%;
     }
 
     .container-card {
