@@ -3,7 +3,7 @@
 320: green 
 480: aqua */
 
-@media screen and (min-width: 390px) and (max-width: 480px) {
+@media screen and (min-width: 380px) and (max-width: 480px) {
     
     * {
         margin: 0;
