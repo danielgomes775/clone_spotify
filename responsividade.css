@@ -3,7 +3,7 @@
 320: green 
 480: aqua */
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 390px) and (max-width: 480px) {
     
     * {
         margin: 0;
@@ -43,6 +43,7 @@
         flex-wrap: wrap;
         min-height: 13%;
         align-items: center;
+        row-gap: 20px;
     }
 
 
@@ -56,6 +57,10 @@
         border-radius: 5px;
     }
 
+    .titulo-card {
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
     
 }
 
@@ -92,7 +97,7 @@
 
     .conta {
         display: flex;
-        min-width: 100%;
+        max-width: 100%;
         background-color: aqua;
     }
 
@@ -101,6 +106,7 @@
         flex-wrap: wrap;
         min-height: 13%;
         align-items: center;
+        row-gap: 20px;
     }
 
 
@@ -112,6 +118,11 @@
         min-width: 168px;
         min-height: 260px;
         border-radius: 5px;
+    }
+
+    .titulo-card {
+        margin-top: 10px;
+        margin-bottom: 8px;
     }
 
     
