@@ -1,2 +1,2 @@
-Lembrar de arrumar a scrollbar do container conteúdo, 
+Lembrar de arrumar a scrollbar do container conteúdo nas dimensões maiores, 
 deixar a conta e os cards/mostrar separados pode ser uma solução.
