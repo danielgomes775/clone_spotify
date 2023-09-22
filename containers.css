@@ -8,7 +8,7 @@
 
     #container {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         gap: 1.5vh;
     }
     
@@ -18,7 +18,7 @@
         display: flex;
         flex-flow: column wrap;
         width: 50vh;
-        height: 87vh;
+        min-height: 87vh;
         gap: 1.5vh;
     }
 
@@ -28,7 +28,7 @@
         height: 15vh;
         border-radius: 8px;
         display: flex;
-        flex-direction: column;
+        flex-flow: column wrap;
         justify-content: space-around;
     }
 
@@ -73,7 +73,7 @@
         min-height: 21vh;
         background-color: #363636;
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column nowrap;
         margin-left: 1vh;
         margin-top: 1vh;
         border-radius: 8px;
@@ -84,7 +84,7 @@
         min-height: 21vh;
         background-color: #363636;
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column nowrap;
         margin-left: 1vh;
         margin-bottom: 3vh;
         border-radius: 8px;
@@ -174,7 +174,9 @@
         border-radius: 5px;
     }
 
-
+    .espaco-sobrando {
+        height: 13px;
+    }
     /* Rodapé */
     
     footer {
