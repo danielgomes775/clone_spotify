@@ -1,13 +1,19 @@
 
-    /* Parte da lateral */
+
+   /* Parte da lateral */
     .box1 > div {
         margin-left: 20px;
+        color: #A9A9A9;
+    }
+
+    .box1 > div:hover {
+        color: white;
+        cursor: pointer;
     }
 
     .box1 > div > span {
         font-size: 15px;
         font-weight: bold;
-        color: #A9A9A9;
         margin-left: 15px;
     }
 
@@ -15,14 +21,20 @@
         font-size: 20px;
     }
 
+
     .biblioteca > div {
         margin-left: 22px;
+        color: #A9A9A9;
+    }
+
+    .biblioteca > div:hover {
+        color: white;
+        cursor: pointer;
     }
 
     .biblioteca > div > span{
         font-size: 15px;
         font-weight: bold;
-        color: #A9A9A9;
         margin-left: 15px;
     }
 
@@ -38,6 +50,17 @@
     .botao-mais {
         background-color: transparent;
         font-size: 20px;
+        color: #A9A9A9;
+        border-radius: 50%;
+        border-style: none;
+        height: 30px;
+        width: 30px;
+    }
+
+    .botao-mais:hover {
+        color: white;
+        background-color: #262626;
+        cursor: pointer;
     }
 
     .titulo-lateral{
@@ -47,6 +70,7 @@
         margin-left: 15px;
         line-height: 15px;
         margin-bottom: 5px;
+        cursor: default;
     }
 
     .texto-lateral {
@@ -54,6 +78,7 @@
         font-size: 13px;
         margin-left: 15px;
         line-height: 14px;
+        cursor: default;
     }
 
     .botao-lateral-1{
@@ -69,6 +94,11 @@
         margin-top: 10px;
     }
 
+    .botao-lateral-1:hover{
+        transform: scale(1.06);
+        cursor: pointer;
+    }
+
     .botao-lateral-2{
         margin-left: 15px;
         width: 20vh;
@@ -82,11 +112,19 @@
         margin-top: 10px;
     }
 
+    .botao-lateral-2:hover{
+        transform: scale(1.06);
+        cursor: pointer;
+    }
+
     .cookie > p > a {
         color: #A9A9A9;
         font-size: 11px;
         margin-left: 15px;
         text-decoration: none;
+    }
+    .cookie > p > a:hover {
+        text-decoration: underline;
     }
 
     .idioma {
@@ -96,9 +134,15 @@
         width: 175px;
         height: 34px;
         background-color: transparent;
-        border: 1px solid white;
+        border: 1px solid #A9A9A9;
         border-radius: 200px;
         margin-left: 15px;
+    }
+
+    .idioma:hover{
+        cursor: pointer;
+        transform: scale(1.06);
+        border-color: white;
     }
 
     .idioma > i {
